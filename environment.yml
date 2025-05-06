@@ -1,0 +1,10 @@
+name: project_template
+channels:
+- conda-forge
+dependencies:
+- python=3.10
+# - pdal          # optional
+# - python-pdal   # optional
+- pip
+- pip:
+  - -r requirements.txt

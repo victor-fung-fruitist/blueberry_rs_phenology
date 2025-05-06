@@ -1,0 +1,27 @@
+###
+# This file is an automated developer tool to run pip commands, containing global requirements for the project.
+# Please do not put any pipeline, package, or application specific requirements in this file.
+# This file should NOT be used to store package dependencies (use `setup.cfg` instead).
+# For more information see https://pip.pypa.io/en/stable/reference/requirements-file-format/
+###
+
+pip                     # for installing and managing Python packages
+uv                      # for managing virtual environments
+pre-commit              # for managing and maintaining multi-language pre-commit hooks
+black[jupyter]          # for formatting Python code, including Jupyter notebooks
+gitpython               # for interacting with Git repositories
+cartopy                 # for cartographic projections and geospatial data visualization
+geopandas               # for working with geospatial data in Python
+numpy                   # for numerical computations
+pandas                  # for data manipulation and analysis
+rioxarray               # for raster data operations using xarray
+matplotlib              # for creating static, animated, and interactive visualizations
+rasterio                # for reading and writing geospatial raster data
+scipy                   # for scientific and technical computing
+dask                    # for parallel computing and handling large datasets
+pyarrow                 # for columnar data processing and interoperability
+llvmlite                # for JIT compilation of numerical functions
+numba                   # for accelerating numerical computations
+xarray-spatial          # for raster-based spatial analysis
+ipykernel               # for running Jupyter kernels in other environments
+
