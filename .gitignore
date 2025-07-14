@@ -399,3 +399,9 @@ FodyWeavers.xsd
 
 # MacOS system files
 .DS_Store
+
+# Env
+uv.lock
+
+# Project
+data/*

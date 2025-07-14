@@ -24,4 +24,18 @@ llvmlite                # for JIT compilation of numerical functions
 numba                   # for accelerating numerical computations
 xarray-spatial          # for raster-based spatial analysis
 ipykernel               # for running Jupyter kernels in other environments
+folium 
+mapclassify
 
+
+
+pystac
+pystac-client
+planetary-computer
+stackstac
+
+tqdm
+ipywidgets
+ray[default]
+dask[distributed]
+bokeh

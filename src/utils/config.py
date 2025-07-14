@@ -8,6 +8,17 @@ REPO_ROOT: str = git.Repo(
     search_parent_directories=True,
 ).working_tree_dir
 
+DATA_DIR: str = Path(REPO_ROOT) / "data"
+RAW_DIR: str = Path(DATA_DIR) / "01_raw"
+INTERMEDIATE_DIR: str = Path(DATA_DIR) / "02_intermediate"
+PRIMARY_DIR: str = Path(DATA_DIR) / "03_primary"
+FEATURE_DIR: str = Path(DATA_DIR) / "04_feature"
+MODEL_INPUT_DIR: str = Path(DATA_DIR) / "05_model_input"
+MODELS_DIR: str = Path(DATA_DIR) / "06_models"
+MODEL_OUTPUT_DIR: str = Path(DATA_DIR) / "07_model_output"
+REPORTING_DIR: str = Path(DATA_DIR) / "08_reporting"
+
+
 # folder structure
 FOLDER_STRUCTURE = {
     "data": {
